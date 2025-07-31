@@ -47,7 +47,7 @@ struct Input
 };
 
 // TODO: Might be a bit generous... should we move this to config?
-static constexpr float MAX_CONNECT_TIME = 15.0f;
+static constexpr float MAX_CONNECT_TIME = 60.0f;
 static constexpr float MAX_CLOSE_TIME = 3.0f;
 static constexpr u32 MAX_CONNECT_RETRIES = 4;
 
